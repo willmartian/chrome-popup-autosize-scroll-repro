@@ -5,7 +5,7 @@ per second, leaving virtualized lists blank while scrolling. The same page in a 
 
 | Chrome 151 | Chrome 155 |
 | --- | --- |
-| <video src="https://github.com/willmartian/chrome-popup-autosize-scroll-repro/raw/main/media/chrome-151.mp4" width="240" controls muted autoplay loop></video> | <video src="https://github.com/willmartian/chrome-popup-autosize-scroll-repro/raw/main/media/chrome-155.mp4" width="240" controls muted autoplay loop></video> |
+| https://github.com/user-attachments/assets/e32015c2-6a6c-41a3-b971-1c995f9443be | https://github.com/user-attachments/assets/a2c40167-5bbe-45d0-8c92-e84beb00d288 |
 
 The repro's real popup during the same scroll (12,000px at 6,000px/s), recorded from Chrome's own
 displayed frames.
