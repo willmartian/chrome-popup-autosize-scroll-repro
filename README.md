@@ -3,6 +3,13 @@
 Since Chrome 152, scrolling in an extension **action popup** can drop from ~120 to ~15 scroll updates
 per second, leaving virtualized lists blank while scrolling. The same page in a tab is fine.
 
+| Chrome 151 | Chrome 155 |
+| --- | --- |
+| <video src="https://github.com/willmartian/chrome-popup-autosize-scroll-repro/raw/main/media/chrome-151.mp4" width="240" controls muted autoplay loop></video> | <video src="https://github.com/willmartian/chrome-popup-autosize-scroll-repro/raw/main/media/chrome-155.mp4" width="240" controls muted autoplay loop></video> |
+
+The repro's real popup during the same scroll (12,000px at 6,000px/s), recorded from Chrome's own
+displayed frames.
+
 ## Repro
 
 Load `extension/` unpacked, open its popup, and scroll fast. Smooth on Chrome 151, janky on 152+.
